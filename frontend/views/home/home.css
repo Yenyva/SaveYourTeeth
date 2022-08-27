@@ -172,10 +172,18 @@ svg {
   .banner-container {
     width: 60%;
   }
+
+  .info-home-container {
+    width: 60%;
+  }
 }
 
 @media only screen and (min-width: 1400px) {
   .banner-container {
+    width: 50%;
+  }
+
+  .info-home-container {
     width: 50%;
   }
 }
