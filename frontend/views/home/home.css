@@ -1,0 +1,181 @@
+.home-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.banner-container {
+  height: 300px;
+}
+
+.home-container section {
+  height: 100%;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+
+.info-home-container {
+  width: 70%;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.title-home-container {
+  height: 30%;
+}
+
+.control-home-container {
+  height: 70%;
+  padding-top: 0.5rem;
+}
+
+.title-home {
+  text-transform: uppercase;
+}
+
+.logo-home {
+  width: 10rem;
+}
+
+.buttons-home-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.button-home {
+  height: 2.5rem;
+  width: 7rem;
+  cursor: pointer;
+  border: 1px solid #184079;
+  border-radius: 0.5rem;
+  background-color: #21bce3;
+  color: #ffffff;
+  margin: 0.5rem;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  height: 2.5rem;
+  width: 1.2rem;
+}
+
+.table-container {
+  width: 100%;
+  position: relative;
+}
+
+table {
+  width: 100%;
+}
+
+.edit-button,
+.delete-button {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0.5rem;
+  background-color: transparent;
+  border: none;
+}
+
+svg {
+  height: 1rem;
+  width: 1rem;
+  cursor: pointer;
+}
+
+.delete:hover {
+  fill: #ff0000;
+}
+
+.edit:hover {
+  fill: #21bce3;
+}
+
+.button-home:hover {
+  background-color: #184079;
+  color: #ffffff;
+}
+
+.home-form {
+  margin-top: 2rem;
+}
+
+.datetime {
+  height: 3rem;
+  border: 1px solid #184079;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.close-button {
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: -3%;
+  right: -3%;
+  background-color: #ff0000;
+  border: 0.5px solid #184079;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.close {
+  fill: #ffffff;
+}
+
+@media only screen and (min-width: 576px) {
+  .banner-container {
+    height: 400px;
+  }
+
+  .close-button {
+    top: -1.5%;
+    right: -1.5%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .banner-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+  }
+
+  .banner {
+    border-radius: 1rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .banner-container {
+    width: 70%;
+  }
+
+  .close-button {
+    top: -1%;
+    right: -1%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .banner-container {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .banner-container {
+    width: 50%;
+  }
+}

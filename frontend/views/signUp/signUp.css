@@ -1,0 +1,285 @@
+.global-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #52525248;
+}
+
+.video-container {
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  max-height: 100vh;
+}
+
+.video-size {
+  height: 80%;
+  background-color: #184079;
+}
+
+.video-s {
+  width: 100%;
+  height: 100%;
+}
+
+.video-xl {
+  display: none;
+}
+
+.text-video {
+  height: 10%;
+  background-color: #184079;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.title-signUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.signUp-container {
+  height: 80%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.title-form-container {
+  display: flex;
+  height: 20%;
+  width: 20rem;
+  padding: 1rem;
+  padding-bottom: 0;
+  padding-top: 3rem;
+  margin: auto;
+}
+
+.title-form-container div {
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title-form-container h2 {
+  width: 70%;
+}
+
+.signUp-icon {
+  width: 100%;
+}
+
+.signUp-form-container {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.signUp-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.signUp-form div {
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.fields-form-signUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  width: 100%;
+}
+
+.fields-form-signUp label {
+  width: 50%;
+}
+
+.fields-form-signUp input {
+  width: 50%;
+}
+
+.input-fields-signUp {
+  height: 2.5rem;
+  padding: 0.5rem;
+  border: 1px solid #000000;
+  border-radius: 0.5rem;
+}
+
+.button-signUp-container {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.button-signUp {
+  height: 2.5rem;
+  width: 7rem;
+  cursor: pointer;
+  border: 1px solid #184079;
+  border-radius: 0.5rem;
+  background-color: #21bce3;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 400px) {
+  .fields-form-signUp {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .fields-form-signUp label {
+    width: 30%;
+  }
+
+  .fields-form-signUp input {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  .video-s {
+    border-radius: 70%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .video-s {
+    display: none;
+  }
+
+  .video-size {
+    display: flex;
+    align-items: center;
+  }
+
+  .video-xl {
+    display: initial;
+    width: 100%;
+  }
+
+  .title-form-container {
+    padding: 0;
+  }
+
+  .signUp-container {
+    width: 30rem;
+    height: 60%;
+  }
+
+  .button-signUp-container {
+    margin: 0.5rem;
+  }
+
+  .signUp-form div {
+    margin: 0.3rem;
+  }
+
+  .text-video {
+    font-size: 2.2rem;
+  }
+
+  #text-top {
+    padding-top: 2.5rem;
+  }
+
+  #text-bottom {
+    padding-bottom: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .signUp-container {
+    height: 80%;
+  }
+  .title-form-container {
+    padding: 1rem;
+    padding-bottom: 0;
+    padding-top: 3rem;
+  }
+
+  .button-signUp-container {
+    margin: 1rem;
+  }
+
+  .signUp-form div {
+    margin: 0.5rem;
+  }
+
+  #text-top {
+    display: none;
+  }
+
+  #text-bottom {
+    display: none;
+  }
+
+  .video-size {
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .signUp-container {
+    width: 50rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-form-container {
+    height: 30%;
+    padding: 0;
+    width: 30rem;
+    align-items: flex-end;
+  }
+
+  .title-form-container div {
+    height: 7rem;
+  }
+
+  .title-form-container h2 {
+    font-size: 3rem;
+  }
+
+  .signUp-form-container {
+    height: 70%;
+    padding-top: 1rem;
+    align-items: flex-start;
+  }
+
+  .video-xl {
+    height: 100%;
+  }
+}
